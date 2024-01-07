@@ -8,5 +8,8 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         MyApplication app = (MyApplication) context.getBean("myApplication");
         app.processMessage();
+
+        app.setMessageService(new SMSService());
+        app.processMessage();
     }
 }

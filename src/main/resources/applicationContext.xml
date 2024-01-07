@@ -6,7 +6,7 @@
     <bean id="smsService" class="org.example.SMSService"/>
 
     <bean id="myApplication" class="org.example.MyApplication">
-        <property name="messageService" ref="smsService"/>
+        <property name="messageService" ref="emailService"/>
     </bean>
 
 </beans>
