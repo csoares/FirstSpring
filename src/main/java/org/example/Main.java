@@ -9,7 +9,7 @@ public class Main {
         MyApplication app = (MyApplication) context.getBean("myApplication");
         app.processMessage();
 
-        app.setMessageService(new SMSService());
-        app.processMessage();
+        // app.setMessageService(new SMSService());
+        // app.processMessage();
     }
 }

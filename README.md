@@ -7,7 +7,7 @@
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>5.3.9</version>
+        <version>6.0.11</version>
     </dependency>
 </dependencies>
 ```
